@@ -70,4 +70,4 @@ Use nginx-rtmp create livestream thumbnail;
       
 配置和处理完成！
 
-根据onsite的直播还需要进行内外地址的转换，如果实际配置还需要在nginx中增加对于内外地址路由表的查询处理；
+根据onsite的直播架构，实际环境中使用要进行内外地址的转换，才能够该问到最终的截图资源，所以需要在nginx中增加对于内外地址路由表的查询处理；
